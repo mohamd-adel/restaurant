@@ -1,0 +1,250 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+  position: relative;  
+}
+.body{
+    max-width: 90%;
+    margin: auto;
+ 
+}
+.container-fluid{
+    flex-basis: 90%;
+}
+
+.navbar-nav{
+    flex-basis: 60%;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: cursive;
+    color: #bd5d37 !important;
+    font-weight: bolder;
+}
+.header{
+    justify-content: center;
+}
+.welcom{
+    font-size: 4rem;
+}
+.welcom-img p{
+    font-size: 2rem;
+   
+    }
+.Book-An-Order{
+    background: #bd5d37;
+    color: aliceblue;
+    width: 13em;
+    height: 3em;
+    border-radius: 15px;
+    border: none;
+  }
+
+.Book-An-Order:hover{
+    transform: scale(1.2);
+}
+.border-radius{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 56%;
+    width: 50%;
+    text-align: center;
+    background: #bd5d37;
+    flex-basis: 43%;
+    height: 72%;
+    margin-top: 4em;
+}
+.border-radius img{
+    max-width: 100%;
+}
+.welcom-img{
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 24em;
+}
+.img-our-fouds{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.our-fouds{
+    font-weight: bold;  
+    background: aliceblue;
+    max-width: 47%;
+    padding: 3em;
+    height: 20em;
+}
+.h3-ourfoods{
+    color: #bd5d37;
+    font-family: cursive; 
+}
+.h1-ourstory{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.more-about{
+    color: #bd5d37;
+}
+.img-about-jpg{
+    width: 120%;
+}
+.reserv-our-menu{
+    text-align: center;
+}
+.our-menu{
+    font-weight: bold;
+    font-size: xxx-large; 
+}
+.reserv{
+    font-family: cursive;
+    color: #bd5d37;
+    font-size: 2em;
+}
+.menu-img-table{
+    display: flex;
+    align-items: center;
+}
+.img-table{
+    width: 70%;
+    text-align: center;
+}
+.table-menu{
+    width: 50%;
+    flex-basis: 50%;
+    border-left: 
+    #bd5d37 solid; 
+    padding-left: 1em;
+}
+table{
+    width: 100%;
+    height: 15em;
+}
+th{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: x-large;
+    color: #bd5d37;
+}
+.but-dow{
+    text-align: center;
+}
+.dwonlode{
+    width: 18%;
+    border: 5px #abb964 solid;
+    background: #008b81;
+    margin-top: 4em;
+    border-radius: 2em;
+    height: 2em;
+    color: aliceblue;
+    font-size: x-large; 
+}
+.book-y-or{
+    background-image: url(../img/restaurant-bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 2em;
+    height: 17em;
+    text-align: center;
+    color: aliceblue;
+      
+}
+.book-y-or-h1{
+    font-family: cursive;
+    margin-top: 1em;
+}
+.book-y-or-h2{
+    font-size: 5.5rem;
+}
+.book-y-or-a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: antiquewhite;
+    border: 3px solid;
+    border-radius: 10px; 
+}
+.ourfoodes{
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: #bd5d37;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 6rem;
+}
+footer{
+    width: 90%;
+    margin: auto !important;
+}
+.Address{
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+.phone{
+    margin-top: 1em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+.mail{
+    margin-top: 1em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+.made{
+    text-align: center;
+}
+.made h1{
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+.made h1 span{
+    font-size: x-large;
+    color: orange;
+    font-family: cursive;
+}
+.map{
+    max-width: 90%;
+    text-align: center;
+}
+.map iframe{
+    max-width: 90%;
+}
+@media screen and (max-width: 767px) {
+.our-fouds{
+    max-width: 99%;
+    text-align: center;
+    height: auto;
+} 
+.img-about-jpg{
+    max-width: 95%;
+}  
+.book-y-or{
+    max-width: 95%;
+    margin: auto;
+    height: auto;
+} 
+.dwonlode{
+    width: auto;
+}
+}
